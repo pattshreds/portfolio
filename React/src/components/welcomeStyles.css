@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.welcome {
+    text-align: center;
+    margin-top: 10em;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.welcomeText {
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.welcomeSubmit {
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 0.5em;
+}

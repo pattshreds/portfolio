@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
 }
 
 .App-logo {
@@ -36,34 +35,3 @@
     transform: rotate(360deg);
   }
 }
-
-/* ================== My Styles ================== */
-
-body {
-  background-color: black;
-}
-
-/* Welcome Page */
-
-.welcome {
-  color: white;
-  margin-top: 8em;
-  margin-bottom: .3em;
-}
-
-.welcomeText {
-  border-radius: 6px;
-  border: 2px solid white;
-}
-
-.welcomeSubmit {
-  display: block;
-  margin: .5em auto;
-  background-color: white;
-  border-radius: 6px;
-  cursor: pointer;
-  border: none;
-  font-weight: bold;
-}
-
-/* Home Page */

@@ -1,14 +1,13 @@
 import React from 'react';
-import './homeStyles.css';
 import Nav from './Nav.js';
 
-const HomePage = () => {
+const ProjectsPage = () => {
     return (
         <>
             <Nav />
-            <h1>Home Page</h1>
+            <h1>Projets</h1>
         </>
     );
 };
 
-export default HomePage;
+export default ProjectsPage;
