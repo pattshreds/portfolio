@@ -5,6 +5,7 @@ const Header = () => {
     return (
         <>
             <h2 id='header'>Patrick McGuigan</h2>
+            <hr />
         </>
     );
 };

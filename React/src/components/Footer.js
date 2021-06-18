@@ -4,9 +4,7 @@ import '../styles/footerStyles.css';
 const Footer = () => {
     return (
         <>
-            <div id='footer'>
-                <h1> footer </h1>
-            </div>
+            <div id='footer'></div>
         </>
     );
 };

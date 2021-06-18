@@ -1,26 +1,32 @@
 #container {
+    position: fixed;
     height: 100%;
-    width: 100%;
     left: 0;
     top: 0;
-    overflow: hidden;
-    position: fixed;
-    background-color: rgb(90, 90, 90);
+    background: linear-gradient(to left top, black, rgb(66, 66, 66));
     z-index: -1;
 }
 
 #me {
     text-align: center;
-    margin: 5em 10em auto auto;
-    border: 2px solid red;
+    margin: 3em 10em 0 auto;
+    border-right: 1px solid rgb(71, 171, 230);
 }
 
 #me img {
     width: 20%;
+    margin: 2em auto 0 auto;
+    border: 0.2em solid black;
 }
 
 #bio {
-    border: 2px solid blue;
+    border-right: 1px solid rgb(71, 171, 230);
     margin-right: 10em;
-    padding: 0 3em;
+    padding: 0 5em;
+    text-align: center;
+}
+
+#bioText {
+    font-size: 1.4em;
+    color: rgb(233, 233, 247);
 }

@@ -1,0 +1,16 @@
+#projPageContainer {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    position: fixed;
+    background-color: rgb(51, 51, 51);
+    z-index: -1;
+}
+
+.projectContainer {
+    border-right: 0.1em solid chartreuse;
+    margin: 3em 10em -2em auto;
+    padding: 0 5em;
+}
