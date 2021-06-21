@@ -6,9 +6,16 @@
     font-size: 2em;
 }
 
+#subhead {
+    color: rgba(255, 255, 255, 0.623);
+    margin: 0 auto auto 2em;
+    font-family: helvetica;
+    font-size: 0.8em;
+}
+
 hr {
     width: 65%;
-    margin: 0.3em auto auto 0;
-    border: 1px solid rgba(0, 0, 0, 0.4);
+    margin: 0.3em auto auto 0.5em;
+    border: 1px solid black;
     border-radius: 4em;
 }

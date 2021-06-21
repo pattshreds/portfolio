@@ -11,7 +11,7 @@ const HomePage = () => {
             <Nav />
             <div id='container'>
                 <div id='me'>
-                    <img src='/mylove.jpg' alt='me' />
+                    <img src='/mylove.jpg' alt='headshot' />
                 </div>
                 <div id='bio'>
                     <p id='bioText'>
@@ -33,6 +33,7 @@ const HomePage = () => {
                         creative solutions to complicated problems. <br />
                         <br />
                         Please look around, enjoy. (:
+                        <br /> <br />
                     </p>
                 </div>
             </div>

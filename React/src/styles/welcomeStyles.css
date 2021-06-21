@@ -3,7 +3,7 @@
     margin-top: 10em;
 }
 
-form {
+#welcomeForm {
     display: flex;
     justify-content: center;
 }

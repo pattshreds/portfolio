@@ -5,8 +5,7 @@ nav {
     top: 0;
     right: 0;
     min-height: 5em;
-    background: rgba(0, 0, 0, 0.1);
-    color: black;
+    background: rgba(0, 142, 177, 0.26);
     padding: 0;
     border-left: 1px solid rgb(0, 0, 0);
     backdrop-filter: blur(1.2em);
@@ -23,6 +22,6 @@ nav {
 }
 
 img {
-    margin: 1em auto 2em 0.8em;
-    height: 15%;
+    margin: 1.5em auto 2em 1.5em;
+    height: 12%;
 }
