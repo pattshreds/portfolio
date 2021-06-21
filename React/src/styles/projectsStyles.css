@@ -13,5 +13,9 @@
     border-right: 0.1em solid chartreuse;
     margin: 8em 10em -2em auto;
     padding: 1em 5em;
+}
+
+.project {
     background: rgba(0, 142, 177, 0.05);
+    padding: 2em;
 }

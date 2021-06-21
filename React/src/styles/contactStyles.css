@@ -9,16 +9,50 @@
 }
 
 #formContainer {
-    border: 2px solid red;
     border-right: 1px solid chartreuse;
-    margin: 8em 10em -2em auto;
+    margin: 5em 10em -2em 3em;
+    border-radius: 0.3em;
     padding: 1em 5em;
-    background: rgba(0, 142, 177, 0.05);
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
 }
 
-#contactTitle {
-    text-align: center;
-    margin-top: 4em;
+#contactForm {
+    background: rgba(0, 142, 177, 0.05);
+    padding: 2em;
+}
+
+#contactForm input {
+    width: 37em;
+    height: 2em;
+    border-radius: 0.4em;
+    margin-bottom: 1em;
+    border: 1px solid rgba(255, 212, 19, 0.959);
+    background: rgba(0, 142, 177, 0.05);
+    color: white;
+}
+
+#contactForm textarea {
+    border-radius: 0.4em;
+    background: rgba(0, 142, 177, 0.05);
+    border: 1px solid rgba(255, 212, 19, 0.959);
+    color: white;
+    font-family: helvetica;
+}
+
+#send {
+    background: rgba(255, 212, 19, 0.959);
+    border: none;
+    border-radius: 0.2em;
+    cursor: pointer;
+}
+
+#send:hover {
+    background: chartreuse;
+}
+
+.contactTitle {
+    color: rgb(233, 233, 247);
+    font-size: 1.2em;
+    font-family: helvetica;
 }

@@ -6,102 +6,95 @@ import '../styles/contactStyles.css';
 import axios from 'axios';
 
 const ContactPage = () => {
-    const [formStatus, setFormStatus] = useState(false);
-    const [query, setQuery] = useState({
+    const [thanks, setThanks] = useState(false);
+    const [formData, setFormData] = useState({
         name: '',
         email: '',
         message: '',
     });
+    const { name, email, message } = formData;
+    const post = async (formData) => {
+        const res = await axios.post(
+            'https://getform.io/f/62c1d054-f280-40d1-8480-ac107f812dcb',
+            formData
+        );
+        return res.data;
+    };
 
-    const handleChange = () => (event) => {
-        const name = event.target.name;
-        const value = event.target.value;
-        setQuery((prevState) => ({
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData((prevState) => ({
             ...prevState,
             [name]: value,
         }));
     };
 
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        const formData = new FormData();
-        Object.entries(query).forEach(([key, value]) => {
-            formData.append(key, value);
+    const handleSend = (formData) => {
+        post(formData);
+        setFormData({
+            name: '',
+            email: '',
+            message: '',
         });
-
-        axios
-            .post(
-                'https://getform.io/f/62c1d054-f280-40d1-8480-ac107f812dcb',
-                formData,
-                { headers: { Accept: 'application/json' } }
-            )
-            .then(function (response) {
-                setFormStatus(true);
-                setQuery({
-                    name: '',
-                    email: '',
-                    message: '',
-                });
-                console.log(response);
-            })
-            .catch(function (error) {
-                console.log(error);
-            });
+        setThanks(true);
     };
-
     return (
         <>
             <Header />
             <Nav />
             <div id='contactContainer'>
                 <div id='formContainer'>
-                    <form id='contactForm' onSubmit={handleSubmit}>
-                        <label htmlFor='name' required>
-                            Name
-                        </label>
+                    <p className='contactTitle'>
+                        Reach me at Patrick.McGuigan5@gmail.com
+                    </p>
+                    <p className='contactTitle'>
+                        or submit the form below and I will get back to you
+                        ASAP!
+                    </p>
+                    <form
+                        id='contactForm'
+                        onSubmit={(e) => {
+                            e.preventDefault();
+                            handleSend(formData);
+                        }}
+                    >
                         <input
-                            id='name'
-                            type='text'
+                            required
+                            onChange={handleChange}
                             name='name'
-                            placeholder="What's your name?"
-                            required='required'
-                            value={query.name}
-                            onChange={handleChange()}
-                        />
-                        <label htmlFor='email' required>
-                            Email
-                        </label>
-                        <input
-                            id='email'
+                            placeholder='Name'
                             type='text'
+                            value={name}
+                        />
+                        <br />
+                        <input
+                            required
+                            onChange={handleChange}
                             name='email'
-                            placeholder='Enter your email address'
-                            required='required'
-                            value={query.email}
-                            onChange={handleChange()}
-                        />
-                        <label htmlFor='message' required>
-                            Message
-                        </label>
-                        <input
-                            id='message'
+                            placeholder='Email'
                             type='text'
-                            name='message'
-                            placeholder='What can I do for you?'
-                            value={query.message}
-                            onChange={handleChange()}
+                            value={email}
                         />
-                        <div className='form-group mt-3'>
-                            {formStatus ? (
-                                <div className='alert alert-success'>
-                                    Your message has been sent.
-                                </div>
-                            ) : (
-                                ''
-                            )}
-                            <button type='submit'>Send</button>
-                        </div>
+                        <br />
+                        <textarea
+                            required
+                            id='message'
+                            onChange={handleChange}
+                            name='message'
+                            cols='68'
+                            rows='20'
+                            value={message}
+                            placeholder='Whats on your mind?'
+                        ></textarea>{' '}
+                        <br />
+                        <button id='send'>Send</button>
                     </form>
+                    {thanks && (
+                        <p>
+                            Thank you for reaching out! I will get back to you
+                            soon
+                        </p>
+                    )}
                 </div>
             </div>
             <Footer />

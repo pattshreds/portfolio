@@ -12,26 +12,28 @@ const ProjectsPage = () => {
             <Nav />
             <div id='projPageContainer'>
                 <div className='projectContainer'>
-                    <div id='projImgs'>
-                        <div className='image'>
-                            <img src='' alt='pokésearch 1' />
+                    <div className='project'>
+                        <div id='projImgs'>
+                            <div className='image'>
+                                <img src='' alt='pokésearch 1' />
+                            </div>
+                            <div className='image'>
+                                <img src='' alt='pokésearch 2' />
+                            </div>
+                            <div className='image'>
+                                <img src='' alt='pokésearch 3' />
+                            </div>
                         </div>
-                        <div className='image'>
-                            <img src='' alt='pokésearch 2' />
+                        <div id='lrgeImgContainer'>
+                            <span
+                                onClick="this.parentElement.style.display='none'"
+                                id='closeLrgImg'
+                            >
+                                &times;
+                            </span>
+                            <img id='lrgImg' />
+                            <div id='lrgImgTxt'></div>
                         </div>
-                        <div className='image'>
-                            <img src='' alt='pokésearch 3' />
-                        </div>
-                    </div>
-                    <div id='lrgeImgContainer'>
-                        <span
-                            onClick="this.parentElement.style.display='none'"
-                            id='closeLrgImg'
-                        >
-                            &times;
-                        </span>
-                        <img id='lrgImg' />
-                        <div id='lrgImgTxt'></div>
                     </div>
                 </div>
                 <div className='projectContainer'>
