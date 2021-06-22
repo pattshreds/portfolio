@@ -8,7 +8,17 @@
   <hr>
   <h4>Stack:</h4>
   <br> 
-  React, Javascript
+  React, JSX.
+  <hr>
+  <h4>Current todo items:</h4>
+  <br>
+    <ul>
+      <li>Build project containers</li>
+      <li>Build resume page</li>
+      <li>improve responsiveness for smaller screens</li>
+      <li>Deploy & get domain</li>
+      <li>Build projects page</li>
+    </ul>  
   <hr>
   <H3>Get ready for the future.</h3>
   <hr>
