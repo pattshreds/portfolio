@@ -6,5 +6,26 @@
 
 .project {
     background: rgba(0, 142, 177, 0.05);
+    border-radius: 0.3em;
     padding: 2em;
+}
+
+.project img {
+    width: 20%;
+    border-radius: 0.3em;
+}
+.project p {
+    margin: auto 3em;
+    color: white;
+    font: helvetica;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+}
+
+#projBtns {
+    margin-left: 10em;
+}
+
+#projLinks {
+    margin-right: 1em;
 }
