@@ -12,7 +12,7 @@ const Resume = () => {
             <div id='resumeContainer'>
                 <h1>Resume</h1>
                 <div id='resume'>
-                    <iframe src='./Resume.pdf'></iframe>
+                    <iframe src='./Resume.pdf' title='resume'></iframe>
                 </div>
             </div>
             <Footer />

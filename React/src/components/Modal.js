@@ -4,7 +4,7 @@ import '../styles/modalStyles.css';
 
 const Modal = ({ selectedImg, setSelectedImg }) => {
     const handleClick = (e) => {
-        if (e.target.id == 'backdrop') {
+        if (e.target.id === 'backdrop') {
             setSelectedImg(null);
         }
     };
