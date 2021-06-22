@@ -14,10 +14,11 @@
   <br>
     <ul>
       <strike><li>Build project containers</li></strike>
+      <strike><li>Build projects page</li></strike>
+      <li>Style buttons in projects containers</li>
       <li>Build resume page</li>
       <li>improve responsiveness for smaller screens</li>
       <li>Deploy & get domain</li>
-      <strike><li>Build projects page</li></strike>
     </ul>  
   <hr>
   <H3>Get ready for the future.</h3>
