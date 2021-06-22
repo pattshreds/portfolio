@@ -13,7 +13,13 @@
 .project img {
     width: 20%;
     border-radius: 0.3em;
+    opacity: 0.7;
 }
+
+.project img:hover {
+    cursor: pointer;
+}
+
 .project p {
     margin: auto 3em;
     color: white;

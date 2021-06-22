@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { motion } from 'framer-motion';
 import Header from './Header.js';
 import Nav from './Nav.js';
 import Footer from './Footer.js';
@@ -28,17 +29,20 @@ const ProjectsPage = () => {
                         information about the chosen Pokémon as well as a photo.
                         This was built using HTML, CSS, Javascript, and JQuery.
                     </p>
-                    <img
+                    <motion.img
+                        whileHover={{ opacity: 1 }}
                         src='pokesearch1.png'
                         alt='Pokesearch'
                         onClick={() => setSelectedImg('pokesearch1.png')}
                     />
-                    <img
+                    <motion.img
+                        whileHover={{ opacity: 1 }}
                         src='pokesearch2.png'
                         alt='Pokesearch'
                         onClick={() => setSelectedImg('pokesearch2.png')}
                     />
-                    <img
+                    <motion.img
+                        whileHover={{ opacity: 1 }}
                         src='pokesearch3.png'
                         alt='Pokesearch'
                         onClick={() => setSelectedImg('pokesearch3.png')}
@@ -59,17 +63,22 @@ const ProjectsPage = () => {
                         playist by uploading mp3 files, edit the playlist, and
                         delete a playlist.
                     </p>
-                    <img
+                    <motion.img
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        whileHover={{ opacity: 1 }}
                         src='moodset1.png'
                         alt='Moodset'
                         onClick={() => setSelectedImg('moodset1.png')}
                     />
-                    <img
+                    <motion.img
+                        whileHover={{ opacity: 1 }}
                         src='moodset2.png'
                         alt='Moodset'
                         onClick={() => setSelectedImg('moodset2.png')}
                     />
-                    <img
+                    <motion.img
+                        whileHover={{ opacity: 1 }}
                         src='moodset3.png'
                         alt='Moodset'
                         onClick={() => setSelectedImg('moodset3.png')}
@@ -91,17 +100,20 @@ const ProjectsPage = () => {
                         playist by uploading mp3 files, edit the playlist, and
                         delete a playlist.
                     </p>
-                    <img
+                    <motion.img
+                        whileHover={{ opacity: 1 }}
                         src='IF3.png'
                         alt='Infinite Savannah'
                         onClick={() => setSelectedImg('IF3.png')}
                     />
-                    <img
+                    <motion.img
+                        whileHover={{ opacity: 1 }}
                         src='IF1.png'
                         alt='Infinite Savannah'
                         onClick={() => setSelectedImg('IF1.png')}
                     />
-                    <img
+                    <motion.img
+                        whileHover={{ opacity: 1 }}
                         src='IF2.png'
                         alt='Infinite Savannah'
                         onClick={() => setSelectedImg('IF2.png')}
