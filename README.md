@@ -13,11 +13,11 @@
   <h4>Current todo items:</h4>
   <br>
     <ul>
-      <li>Build project containers</li>
+      <strike><li>Build project containers</li></strike>
       <li>Build resume page</li>
       <li>improve responsiveness for smaller screens</li>
       <li>Deploy & get domain</li>
-      <li>Build projects page</li>
+      <strike><li>Build projects page</li></strike>
     </ul>  
   <hr>
   <H3>Get ready for the future.</h3>
