@@ -18,7 +18,8 @@ nav {
 
 .nav-links li {
     margin-bottom: 2em;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: bold;
 }
 
 .link:hover {
