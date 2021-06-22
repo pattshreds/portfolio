@@ -2,19 +2,21 @@ import React from 'react';
 import '../styles/footerStyles.css';
 
 const Footer = () => {
-    const noUnderline = {
-        textDecoration: 'none',
-    };
     return (
         <>
             <div id='footer'>
                 <ul id='footerLinks'>
-                    <a href='https://github.com/pattshreds' target='_blank'>
+                    <a
+                        href='https://github.com/pattshreds'
+                        target='_blank'
+                        rel='noreferrer'
+                    >
                         <li className='footerLi'>GitHub</li>
                     </a>
                     <a
                         href='https://www.codewars.com/users/Pattshreds'
                         target='_blank'
+                        rel='noreferrer'
                     >
                         <li>CodeWars</li>
                     </a>

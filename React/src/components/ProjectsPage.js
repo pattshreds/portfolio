@@ -51,12 +51,14 @@ const ProjectsPage = () => {
                         <a
                             href='https://github.com/pattshreds/pokedex_app'
                             target='_blank'
+                            rel='noreferrer'
                         >
                             <button className='btn'>GitHub</button>
                         </a>
                         <a
                             href='https://pattshreds.github.io/pokedex_app/'
                             target='_blank'
+                            rel='noreferrer'
                         >
                             <button className='btn'>App</button>
                         </a>
@@ -95,12 +97,14 @@ const ProjectsPage = () => {
                         <a
                             href='https://github.com/pattshreds/music-app'
                             target='_blank'
+                            rel='noreferrer'
                         >
                             <button className='btn'>GitHub</button>
                         </a>
                         <a
                             href='https://seir-music-app.herokuapp.com/landing/landing'
                             target='_blank'
+                            rel='noreferrer'
                         >
                             <button className='btn'>App</button>
                         </a>
@@ -139,12 +143,14 @@ const ProjectsPage = () => {
                         <a
                             href='https://github.com/ryanklintworth/infinite-savannah'
                             target='_blank'
+                            rel='noreferrer'
                         >
                             <button className='btn'>GitHub</button>
                         </a>
                         <a
                             href='https://infinite-savannah-23628.herokuapp.com/'
                             target='_blank'
+                            rel='noreferrer'
                         >
                             <button className='btn'>App</button>
                         </a>
