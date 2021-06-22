@@ -48,8 +48,18 @@ const ProjectsPage = () => {
                         onClick={() => setSelectedImg('pokesearch3.png')}
                     />
                     <div id='projBtns'>
-                        <button id='projLinks'>GitHub</button>
-                        <button id='projLinks'>App</button>
+                        <a
+                            href='https://github.com/pattshreds/pokedex_app'
+                            target='_blank'
+                        >
+                            <button className='btn'>GitHub</button>
+                        </a>
+                        <a
+                            href='https://pattshreds.github.io/pokedex_app/'
+                            target='_blank'
+                        >
+                            <button className='btn'>App</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -64,8 +74,6 @@ const ProjectsPage = () => {
                         delete a playlist.
                     </p>
                     <motion.img
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
                         whileHover={{ opacity: 1 }}
                         src='moodset1.png'
                         alt='Moodset'
@@ -84,15 +92,24 @@ const ProjectsPage = () => {
                         onClick={() => setSelectedImg('moodset3.png')}
                     />
                     <div id='projBtns'>
-                        <button id='projLinks'>GitHub</button>
-                        <button id='projLinks'>App</button>
+                        <a
+                            href='https://github.com/pattshreds/music-app'
+                            target='_blank'
+                        >
+                            <button className='btn'>GitHub</button>
+                        </a>
+                        <a
+                            href='https://seir-music-app.herokuapp.com/landing/landing'
+                            target='_blank'
+                        >
+                            <button className='btn'>App</button>
+                        </a>
                     </div>
                 </div>
             </div>
             <div className='projectContainer'>
                 <div className='project'>
                     <h1>Infinite Savannah</h1>
-                    <h1>Moodset</h1>
                     <p>
                         Moodset is a playlist creation app built using Node.js,
                         Mongoose, Express, and EJS. With this app, users can
@@ -119,8 +136,18 @@ const ProjectsPage = () => {
                         onClick={() => setSelectedImg('IF2.png')}
                     />
                     <div id='projBtns'>
-                        <button id='projLinks'>GitHub</button>
-                        <button id='projLinks'>App</button>
+                        <a
+                            href='https://github.com/ryanklintworth/infinite-savannah'
+                            target='_blank'
+                        >
+                            <button className='btn'>GitHub</button>
+                        </a>
+                        <a
+                            href='https://infinite-savannah-23628.herokuapp.com/'
+                            target='_blank'
+                        >
+                            <button className='btn'>App</button>
+                        </a>
                     </div>
                     <br />
                     <br />
