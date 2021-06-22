@@ -8,7 +8,7 @@
   <hr>
   <h4>Stack:</h4>
   <br> 
-  React, Javascript
+  React, JSX.
   <hr>
   <H3>Get ready for the future.</h3>
   <hr>
