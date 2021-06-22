@@ -1,0 +1,37 @@
+.projectContainer {
+    border-right: 0.1em solid chartreuse;
+    margin: 1em 10em 0 auto;
+    padding: 1em 5em;
+}
+
+.project {
+    background: rgba(0, 142, 177, 0.05);
+    border-radius: 0.3em;
+    padding: 2em;
+}
+
+.project img {
+    width: 20%;
+    border-radius: 0.3em;
+    opacity: 0.7;
+}
+
+.project img:hover {
+    cursor: pointer;
+}
+
+.project p {
+    margin: auto 3em;
+    color: white;
+    font: helvetica;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+}
+
+#projBtns {
+    margin-left: 10em;
+}
+
+#projLinks {
+    margin-right: 1em;
+}
