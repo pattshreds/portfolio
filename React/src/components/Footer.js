@@ -12,9 +12,6 @@ const Footer = () => {
                     <a href='https://github.com/pattshreds' target='_blank'>
                         <li className='footerLi'>GitHub</li>
                     </a>
-                    <a href='#' target='_blank'>
-                        <li>Resume</li>
-                    </a>
                     <a
                         href='https://www.codewars.com/users/Pattshreds'
                         target='_blank'
