@@ -1,0 +1,58 @@
+#contactContainer {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: linear-gradient(to left top, black, rgb(66, 66, 66));
+    z-index: -1;
+}
+
+#formContainer {
+    border-right: 1px solid chartreuse;
+    margin: 5em 10em -2em 3em;
+    border-radius: 0.3em;
+    padding: 1em 5em;
+    display: block;
+    text-align: center;
+}
+
+#contactForm {
+    background: rgba(0, 142, 177, 0.05);
+    padding: 2em;
+}
+
+#contactForm input {
+    width: 37em;
+    height: 2em;
+    border-radius: 0.4em;
+    margin-bottom: 1em;
+    border: 1px solid rgba(255, 212, 19, 0.959);
+    background: rgba(0, 142, 177, 0.05);
+    color: white;
+}
+
+#contactForm textarea {
+    border-radius: 0.4em;
+    background: rgba(0, 142, 177, 0.05);
+    border: 1px solid rgba(255, 212, 19, 0.959);
+    color: white;
+    font-family: helvetica;
+}
+
+#send {
+    background: rgba(255, 212, 19, 0.959);
+    border: none;
+    border-radius: 0.2em;
+    cursor: pointer;
+}
+
+#send:hover {
+    background: chartreuse;
+}
+
+.contactTitle {
+    color: rgb(233, 233, 247);
+    font-size: 1.2em;
+    font-family: helvetica;
+}

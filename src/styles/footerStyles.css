@@ -1,0 +1,27 @@
+#footer {
+    position: fixed;
+    width: 100%;
+    height: 3.5em;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    backdrop-filter: blur(2em);
+}
+
+#footerLinks {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+#footerLinks a {
+    list-style: none;
+    text-decoration: none;
+    color: rgba(255, 212, 19, 0.959);
+}
+
+#footerLinks a:hover {
+    color: rgb(0, 216, 245);
+}
