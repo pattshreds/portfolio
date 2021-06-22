@@ -84,7 +84,7 @@ const ContactPage = () => {
                             cols='68'
                             rows='20'
                             value={message}
-                            placeholder='Whats on your mind?'
+                            placeholder="What's up"
                         ></textarea>{' '}
                         <br />
                         <button id='send'>Send</button>

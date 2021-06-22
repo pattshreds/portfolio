@@ -1,17 +1,6 @@
-#projPageContainer {
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-    overflow: hidden;
-    position: fixed;
-    background: linear-gradient(to left top, black, rgb(66, 66, 66));
-    z-index: -1;
-}
-
 .projectContainer {
     border-right: 0.1em solid chartreuse;
-    margin: 8em 10em -2em auto;
+    margin: 1em 10em 0 auto;
     padding: 1em 5em;
 }
 

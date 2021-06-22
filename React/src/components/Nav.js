@@ -12,16 +12,16 @@ const Nav = () => {
                 <img src='https://i.ibb.co/g6GkZRZ/logo.png' alt='logo' />
                 <ul className='nav-links'>
                     <Link style={noUnderline} to='/'>
-                        <li>Home</li>
+                        <li className='link'>Home</li>
                     </Link>
                     <Link style={noUnderline} to='/projects'>
-                        <li>Projects</li>
+                        <li className='link'>Projects</li>
                     </Link>
                     <Link style={noUnderline} to='/contact'>
-                        <li>Contact</li>
+                        <li className='link'>Contact</li>
                     </Link>
                     <Link style={noUnderline} to='/resume'>
-                        <li>Resume</li>
+                        <li className='link'>Resume</li>
                     </Link>
                 </ul>
             </nav>

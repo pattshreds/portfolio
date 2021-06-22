@@ -10,36 +10,18 @@ const ProjectsPage = () => {
         <>
             <Header />
             <Nav />
-            <div id='projPageContainer'>
-                <div className='projectContainer'>
-                    <div className='project'>
-                        <div id='projImgs'>
-                            <div className='image'>
-                                <img src='' alt='pokésearch 1' />
-                            </div>
-                            <div className='image'>
-                                <img src='' alt='pokésearch 2' />
-                            </div>
-                            <div className='image'>
-                                <img src='' alt='pokésearch 3' />
-                            </div>
-                        </div>
-                        <div id='lrgeImgContainer'>
-                            <span
-                                onClick="this.parentElement.style.display='none'"
-                                id='closeLrgImg'
-                            >
-                                &times;
-                            </span>
-                            <img id='lrgImg' />
-                            <div id='lrgImgTxt'></div>
-                        </div>
-                    </div>
+            <div className='projectContainer'>
+                <div className='project'>
+                    <h1>Pokesearch</h1>
                 </div>
-                <div className='projectContainer'>
+            </div>
+            <div className='projectContainer'>
+                <div className='project'>
                     <h1>Moodset</h1>
                 </div>
-                <div className='projectContainer'>
+            </div>
+            <div className='projectContainer'>
+                <div className='project'>
                     <h1>Infinite Savannah</h1>
                 </div>
             </div>
