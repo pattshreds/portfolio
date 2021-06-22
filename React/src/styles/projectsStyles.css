@@ -22,16 +22,47 @@
 
 .project p {
     margin: auto 3em;
-    color: white;
+    color: rgba(255, 255, 255, 0.623);
     font: helvetica;
     letter-spacing: 0.1em;
     line-height: 1.5em;
+}
+
+.project h1 {
+    color: white;
 }
 
 #projBtns {
     margin-left: 10em;
 }
 
-#projLinks {
+.btn {
     margin-right: 1em;
+    background: rgb(84, 17, 240);
+    color: white;
+    border: none;
+    width: 5em;
+    height: 2.5em;
+    font-size: 0.9em;
+    font-weight: bold;
+    border-radius: 0.3em;
+}
+
+.btn:hover {
+    animation-name: btnLinks;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+}
+
+/* Animations */
+
+@keyframes btnLinks {
+    to {
+        background: rgb(48, 9, 138);
+    }
+}
+
+#pdf {
+    width: 25em;
 }
