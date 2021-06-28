@@ -1,6 +1,6 @@
 #me {
     text-align: center;
-    margin: 0 10em 0 auto;
+    margin: 0 7em 0 auto;
     border-right: 1px solid chartreuse;
 }
 
@@ -13,7 +13,7 @@
 
 #bio {
     border-right: 1px solid chartreuse;
-    margin-right: 10em;
+    margin-right: 7em;
     padding: 0 5em;
     text-align: center;
 }

@@ -19,6 +19,8 @@
 #footerLinks a {
     list-style: none;
     text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
     color: rgba(255, 212, 19, 0.959);
 }
 

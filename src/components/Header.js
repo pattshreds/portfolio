@@ -4,9 +4,10 @@ import '../styles/headerStyles.css';
 const Header = () => {
     return (
         <>
-            <h2 id='header'>Patrick McGuigan</h2>
-            <h5 id='subhead'>Full Stack Software Engineer</h5>
-            <hr />
+            <div id='headerTxt'>
+                <h2 id='header'>Patrick McGuigan</h2>
+                <h5 id='subhead'>Full Stack Software Engineer</h5>
+            </div>
         </>
     );
 };
