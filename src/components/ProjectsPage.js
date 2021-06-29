@@ -14,6 +14,7 @@ const ProjectsPage = () => {
         <>
             <Header />
             <Nav />
+            {/* PokéSearch project */}
             <div className='projectContainer'>
                 {selectedImg && (
                     <Modal
@@ -65,6 +66,8 @@ const ProjectsPage = () => {
                     </div>
                 </div>
             </div>
+
+            {/* Moodset project */}
             <div className='projectContainer'>
                 <div className='project'>
                     <h1>Moodset</h1>
@@ -111,6 +114,8 @@ const ProjectsPage = () => {
                     </div>
                 </div>
             </div>
+
+            {/* Infinite Savannah Project */}
             <div className='projectContainer'>
                 <div className='project'>
                     <h1>Infinite Savannah</h1>
@@ -157,6 +162,55 @@ const ProjectsPage = () => {
                     </div>
                     <br />
                     <br />
+                </div>
+            </div>
+
+            {/* PERN To-Do List */}
+            <div className='projectContainer'>
+                {selectedImg && (
+                    <Modal
+                        selectedImg={selectedImg}
+                        setSelectedImg={setSelectedImg}
+                    />
+                )}
+                <div className='project'>
+                    <h1>PERN To-Do</h1>
+                    <p>
+                        This full-stack application was built with a PERN stack
+                        (PostgreSQL, Express.JS, React, Node.JS). This
+                        application is a responsive and easy-to-use to-do list
+                        that I built to teach myself more complex React
+                        techniques and to practice implementing a PostgreSQL
+                        database in React. This application is styled using
+                        Bootstrap 4.
+                    </p>
+                    <motion.img
+                        whileHover={{ opacity: 1 }}
+                        src='PERNtodo1.png'
+                        alt='PERN To-Do'
+                        onClick={() => setSelectedImg('PERNtodo1.png')}
+                    />
+                    <motion.img
+                        whileHover={{ opacity: 1 }}
+                        src='PERNtodo2.png'
+                        alt='PERN To-Do'
+                        onClick={() => setSelectedImg('PERNtodo2.png')}
+                    />
+                    <motion.img
+                        whileHover={{ opacity: 1 }}
+                        src='PERNtodo3.png'
+                        alt='PERN To-Do'
+                        onClick={() => setSelectedImg('PERNtodo3.png')}
+                    />
+                    <div id='projBtns'>
+                        <a
+                            href='https://github.com/pattshreds/PERN-todo'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            <button className='btn'>GitHub</button>
+                        </a>
+                    </div>
                 </div>
             </div>
             <Footer />
