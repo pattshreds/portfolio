@@ -1,7 +1,4 @@
 import React, { useState } from 'react';
-import Header from './Header.js';
-import Nav from './Nav.js';
-import Footer from './Footer.js';
 import '../styles/contactStyles.css';
 import axios from 'axios';
 
@@ -40,8 +37,6 @@ const ContactPage = () => {
     };
     return (
         <>
-            <Header />
-            <Nav />
             <div id='contactContainer'>
                 <div id='formContainer'>
                     <p className='contactTitle'>
@@ -97,7 +92,6 @@ const ContactPage = () => {
                     )}
                 </div>
             </div>
-            <Footer />
         </>
     );
 };

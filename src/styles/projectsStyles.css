@@ -1,18 +1,25 @@
+#pageCont {
+    margin: 0;
+    padding: 0;
+}
+
 .projectContainer {
-    border-right: 0.1em solid chartreuse;
-    margin: 1em 7em 0 auto;
+    margin: 0;
     padding: 1em 5em;
 }
 
 .project {
-    background: rgba(0, 142, 177, 0.05);
+    height: 65vh;
+    background: rgba(46, 46, 46, 0.596);
     border-radius: 0.3em;
-    padding: 2em;
-    box-shadow: 0.5em 0.4em 0.4em rgba(0, 0, 0, 0.7);
+    padding: 1em 2em 2em 2em;
+    /* overflow: auto; */
 }
 
 .project img {
     width: 20%;
+    height: auto;
+    margin: auto 0.5em 1.5em 0.5em;
     border-radius: 0.3em;
     opacity: 0.7;
 }
@@ -22,15 +29,25 @@
 }
 
 .project p {
-    margin: auto 3em;
-    color: rgba(255, 255, 255, 0.623);
+    margin: 1em 3em;
+    color: snow;
     font: helvetica;
+    font-size: 1.3em;
     letter-spacing: 0.1em;
     line-height: 1.5em;
 }
 
 .project h1 {
-    color: white;
+    color: rgb(47, 45, 63);
+    margin: 0;
+    font-size: 5em;
+}
+
+#projHead {
+    margin: 0;
+    text-align: center;
+    color: linen;
+    margin: 0.5em auto;
 }
 
 #projBtns {

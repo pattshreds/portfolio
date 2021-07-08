@@ -1,25 +1,16 @@
 #header {
+    margin: 0.5em 1em 0 auto;
+    text-align: right;
     color: black;
-    margin: auto auto auto 1em;
     font-family: helvetica;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 1.8em;
 }
 
 #subhead {
-    color: rgba(255, 255, 255, 0.623);
-    margin: auto auto auto 3em;
+    margin: 0 3em 0 auto;
+    text-align: right;
+    color: rgba(255, 0, 0, 0.795);
     font-family: helvetica;
     font-size: 0.8em;
-}
-
-#headerTxt {
-    margin-top: 1vh;
-    background: linear-gradient(
-        to left,
-        rgba(255, 255, 255, 0),
-        rgba(255, 212, 19, 0.6)
-    );
-    padding: 0.2em;
-    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.8);
 }

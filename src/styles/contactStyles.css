@@ -1,26 +1,15 @@
 #contactContainer {
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-    position: absolute;
-    background: linear-gradient(to left top, black, rgb(66, 66, 66));
-    z-index: -1;
+    margin: 0;
+    padding: 0;
+    background: darkslategrey;
 }
 
 #formContainer {
-    border-right: 1px solid chartreuse;
-    margin: 5em 7em -2em 3em;
+    margin: 0 7em -2em 3em;
     border-radius: 0.3em;
     padding: 1em 5em;
     display: block;
     text-align: center;
-}
-
-#contactForm {
-    background: rgba(0, 142, 177, 0.05);
-    padding: 2em;
-    box-shadow: 0.5em 0.4em 0.4em rgba(0, 0, 0, 0.7);
 }
 
 #contactForm input {
@@ -56,4 +45,14 @@
     color: rgb(233, 233, 247);
     font-size: 1.2em;
     font-family: helvetica;
+}
+
+#x {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: red;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }

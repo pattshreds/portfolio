@@ -1,0 +1,30 @@
+#parallax1 {
+    display: block;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+#name {
+    text-align: left;
+    font-size: 8em;
+    font-family: tahoma;
+    margin: 2em auto auto 2em;
+}
+
+#subhead {
+    font-size: 4em;
+    font-family: tahoma;
+    text-align: right;
+    margin: auto 9em auto auto;
+    color: linen;
+}
+
+#arrow {
+    border: 0;
+    width: 10%;
+    height: 20%;
+    margin: 1em auto auto 40em;
+}
