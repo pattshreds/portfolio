@@ -40,14 +40,15 @@
 .project h1 {
     color: rgb(47, 45, 63);
     margin: 0;
-    font-size: 5em;
+    font-size: 8vw;
 }
 
 #projHead {
     margin: 0;
     text-align: center;
+    font-family: tahoma;
     color: linen;
-    margin: 0.5em auto;
+    margin: 0.3em auto;
 }
 
 #projBtns {
@@ -71,6 +72,27 @@
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
     cursor: pointer;
+}
+
+@media (max-width: 678px) {
+    #projHead {
+        font-size: 20vw;
+    }
+    .project {
+        padding: 0.5em 1em 1em 1em;
+    }
+    #projBtns {
+        margin-left: 1em;
+    }
+}
+
+@media (max-width: 552px) {
+    .project {
+        padding: 0.5em;
+    }
+    .project p {
+        margin: 1em auto 1em auto;
+    }
 }
 
 /* Animations */

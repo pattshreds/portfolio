@@ -47,7 +47,7 @@
     font-family: helvetica;
 }
 
-#x {
+/* #x {
     position: absolute;
     width: 100px;
     height: 100px;
@@ -55,4 +55,17 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+} */
+
+@media (max-width: 556px) {
+    #formContainer {
+        margin: 0;
+        padding: 0.5em 0 0.5em 0;
+    }
+    #contactForm input {
+        width: 30em;
+    }
+    #contactForm textarea {
+        width: 30em;
+    }
 }
