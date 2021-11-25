@@ -9,7 +9,7 @@ const ProjectsPage = () => {
 
     return (
         <>
-            <Parallax bgImage='parallax2.jpeg' strength='500'>
+            <Parallax bgImage='parallax5.jpg' strength='500'>
                 <div id='pageCont'>
                     <h1 id='projHead'>Projects</h1>
                     {/* PokéSearch project */}

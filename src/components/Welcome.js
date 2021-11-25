@@ -5,7 +5,7 @@ import '../styles/welcomeStyles.css';
 const Welcome = () => {
     return (
         <>
-            <Parallax bgImage='parallax2.jpeg' strength='500'>
+            <Parallax bgImage='parallax5.jpg' strength='500'>
                 <div id='parallax1'>
                     <p id='name'>Patrick McGuigan</p>
                     <p id='subhead'>Software Engineer</p>
