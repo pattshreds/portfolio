@@ -11,7 +11,7 @@
 
 img {
     height: 50vh;
-    border: 0.3em solid rgb(47, 45, 63);
+    border: 0.3rem solid rgb(47, 45, 63);
     border-radius: 0.3em;
 }
 
@@ -27,6 +27,12 @@ img {
 
 #introLine {
     font-size: 1.5em;
+}
+
+#backToTopBtn {
+    position: absolute;
+    top: -25%;
+    left: 50%;
 }
 
 @media (max-width: 765px) {

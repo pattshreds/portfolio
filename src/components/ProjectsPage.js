@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Parallax } from 'react-parallax';
 import Modal from './Modal.js';
 import '../styles/projectsStyles.css';
 
@@ -9,7 +8,6 @@ const ProjectsPage = () => {
 
     return (
         <>
-            {/* <Parallax bgImage='parallax5.jpg' strength='500'> */}
             <div id='pageCont'>
                 <h1 id='projHead'>Projects</h1>
                 {/* PokéSearch project */}
@@ -201,7 +199,6 @@ const ProjectsPage = () => {
                     </div>
                 </div>
             </div>
-            {/* </Parallax> */}
         </>
     );
 };
