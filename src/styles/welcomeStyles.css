@@ -9,8 +9,9 @@ h1 {
 
 #name {
     font-size: 8vw;
-    margin: 1em auto 0.2em 1.8em;
+    margin: 1em auto auto 1.8em;
     font-family: tahoma;
+    color: rgb(47, 45, 63);
 }
 
 #subhead {
@@ -21,11 +22,33 @@ h1 {
     color: linen;
 }
 
-#arrow {
+/* #arrow {
     border: 0;
     width: 12vw;
     height: 16vw;
     margin: 15vw 0 auto 40vw;
+} */
+
+#btns {
+    width: 100%;
+    display: block;
+    margin-top: 8rem;
+}
+
+#letsGoLink {
+    margin-left: 35rem;
+    background: white;
+    padding: 0.4rem;
+    font-size: 0.8rem;
+    font-family: tahoma;
+    text-decoration: none;
+    border-radius: 0.2rem;
+    color: black;
+    font-weight: bold;
+}
+
+#letsGoLink:hover {
+    background: red;
 }
 
 @media (max-width: 765px) {

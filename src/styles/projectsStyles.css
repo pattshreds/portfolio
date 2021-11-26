@@ -9,9 +9,8 @@
 }
 
 .project {
-    height: 65vh;
-    background: rgba(46, 46, 46, 0.596);
-    border-radius: 0.3em;
+    background: rgba(219, 137, 61, 0.596);
+    border-radius: 0.5em;
     padding: 1em 2em 2em 2em;
     /* overflow: auto; */
 }
@@ -30,7 +29,7 @@
 
 .project p {
     margin: 1em 3em;
-    color: snow;
+    color: linen;
     font: helvetica;
     font-size: 1.3em;
     letter-spacing: 0.1em;
@@ -38,7 +37,7 @@
 }
 
 .project h1 {
-    color: rgb(47, 45, 63);
+    color: linen;
     margin: 0;
     font-size: 8vw;
 }
@@ -47,7 +46,7 @@
     margin: 0;
     text-align: center;
     font-family: tahoma;
-    color: linen;
+    color: rgb(47, 45, 63);
     margin: 0.3em auto;
 }
 
@@ -58,7 +57,7 @@
 .btn {
     margin-right: 1em;
     background: rgb(84, 17, 240);
-    color: white;
+    color: linen;
     border: none;
     width: 5em;
     height: 2.5em;
