@@ -5,9 +5,6 @@ const HomePage = () => {
     return (
         <>
             <div id='homeContainer'>
-                <a href='#parallax1' id='backToTopBtn'>
-                    Back to top
-                </a>
                 <div id='bioText'>
                     <i id='introLine'>Nice to meet you, I'm Patrick.</i> <br />{' '}
                     <br />

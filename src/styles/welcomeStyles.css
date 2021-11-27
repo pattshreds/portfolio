@@ -1,5 +1,6 @@
-#parallax1 {
+#welcomeContainer {
     display: block;
+    height: 120vh;
 }
 
 h1 {
@@ -7,48 +8,78 @@ h1 {
     padding: 0;
 }
 
-#name {
-    font-size: 8vw;
-    margin: 1em auto auto 1.8em;
+.name {
+    font-size: 20rem;
+    font-weight: bold;
+    margin: -5.5rem auto 0 -1.8rem;
     font-family: tahoma;
     color: rgb(47, 45, 63);
 }
 
-#subhead {
+#nameExtFirst {
+    font-family: tahoma;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 0.8rem;
+    color: rgb(47, 45, 63);
+}
+
+#nameExtLast {
+    font-family: tahoma;
+    font-weight: bold;
+    margin-top: 9rem;
+    margin-bottom: 0;
+    letter-spacing: 0.8rem;
+    color: rgb(47, 45, 63);
+}
+
+#nameAnimations {
+    position: relative;
+    top: -30.7rem;
+    font-size: 8rem;
+}
+
+/* #titleAnimations {
+    position: relative;
+    display: inline;
+    top: -30rem;
+    left: 11rem;
     font-size: 4vw;
     font-family: tahoma;
-    text-align: right;
-    margin: 0 11em auto auto;
     color: linen;
-}
-
-/* #arrow {
-    border: 0;
-    width: 12vw;
-    height: 16vw;
-    margin: 15vw 0 auto 40vw;
 } */
 
-#btns {
-    width: 100%;
-    display: block;
-    margin-top: 8rem;
-}
-
-#letsGoLink {
-    margin-left: 35rem;
-    background: white;
-    padding: 0.4rem;
-    font-size: 0.8rem;
+#titleOne {
+    position: relative;
+    top: -29rem;
+    margin: 0 0.5rem 0 30vw;
+    font-size: 4vw;
     font-family: tahoma;
-    text-decoration: none;
-    border-radius: 0.2rem;
-    color: black;
-    font-weight: bold;
+    letter-spacing: 0.5rem;
+    color: linen;
+    opacity: 75%;
 }
 
-#letsGoLink:hover {
-    background: red;
+#titleTwo {
+    position: relative;
+    bottom: 29rem;
+    margin: 0 0 0 0.5rem;
+    font-size: 4vw;
+    font-family: tahoma;
+    letter-spacing: 0.5rem;
+    color: linen;
+    opacity: 75%;
+}
+
+#scroll {
+    position: relative;
+    top: -23rem;
+    right: 22rem;
+    font-size: 2rem;
+    font-family: tahoma;
+    font-weight: bold;
+    color: rgb(47, 45, 63);
 }
 
 @media (max-width: 765px) {
