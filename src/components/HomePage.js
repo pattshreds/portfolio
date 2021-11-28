@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/homeStyles.css';
+import { useSpring, animated } from 'react-spring';
 
 const HomePage = () => {
+    const bioBox = useSpring({
+        to: { marginLeft: '0' },
+        from: { marginLeft: '-500rem' },
+    });
     return (
         <>
             <div id='homeContainer'>
-                <div id='bioText'>
+                <animated.div id='bioText' style={bioBox}>
                     <i id='introLine'>Nice to meet you, I'm Patrick.</i> <br />{' '}
                     <br />
                     <strong>Since I was a young child</strong> I have had a
@@ -24,7 +29,7 @@ const HomePage = () => {
                     to complicated problems. <br />
                     <br />
                     Please look around, enjoy. (:
-                </div>
+                </animated.div>
                 <img src='/mylove.jpg' alt='headshot' />
             </div>
         </>

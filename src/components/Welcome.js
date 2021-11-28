@@ -6,6 +6,7 @@ import ProjectsPage from './ProjectsPage.js';
 import { useSpring, animated, config } from 'react-spring';
 
 const Welcome = () => {
+    const scrollPosition = window.scrollY;
     const [flip, set] = useState(false);
     const firstProps = useSpring({
         to: { marginLeft: '7rem' },
@@ -62,8 +63,8 @@ const Welcome = () => {
                         Scroll
                     </animated.div>
                 </div>
-                <HomePage />
-                <ProjectsPage />
+                {scrollPosition > 10 && <HomePage />}
+                {/* <ProjectsPage /> */}
             </Parallax>
         </>
     );
