@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../styles/homeStyles.css';
 import { useSpring, animated } from 'react-spring';
 

@@ -3,7 +3,7 @@ import { Parallax } from 'react-parallax';
 import '../styles/welcomeStyles.css';
 import HomePage from './HomePage.js';
 import ProjectsPage from './ProjectsPage.js';
-import { useSpring, animated, config } from 'react-spring';
+import { useSpring, animated } from 'react-spring';
 
 const Welcome = () => {
     const scrollPosition = window.scrollY;
@@ -63,8 +63,8 @@ const Welcome = () => {
                         Scroll
                     </animated.div>
                 </div>
-                {scrollPosition > 10 && <HomePage />}
-                {/* <ProjectsPage /> */}
+                {scrollPosition > 5 && <HomePage />}
+                {scrollPosition > 200 && <ProjectsPage />}
             </Parallax>
         </>
     );
