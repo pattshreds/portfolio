@@ -19,14 +19,14 @@ const Welcome = () => {
     });
 
     const titleOneProps = useSpring({
-        to: { top: '-29rem' },
-        from: { top: '-500rem' },
+        to: { top: '-29rem', opacity: 1 },
+        from: { top: '-500rem', opacity: 0 },
         delay: 1000,
     });
 
     const titleTwoProps = useSpring({
-        to: { bottom: '29rem' },
-        from: { bottom: '-500rem' },
+        to: { bottom: '29rem', opacity: 1 },
+        from: { bottom: '-500rem', opacity: 0 },
         delay: 1500,
     });
 
