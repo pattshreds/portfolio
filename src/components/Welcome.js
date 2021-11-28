@@ -30,11 +30,11 @@ const Welcome = () => {
     });
 
     const scroll = useSpring({
-        to: { opacity: 1 },
+        to: { opacity: 0.8 },
         from: { opacity: 0 },
         reset: true,
         reverse: flip,
-        config: { duration: 800 },
+        config: { duration: 1000 },
         onRest: () => set(!flip),
     });
 
@@ -58,9 +58,9 @@ const Welcome = () => {
                     <animated.span id='titleTwo' style={titleTwoProps}>
                         Engineer
                     </animated.span>
-                    <animated.span id='scroll' style={scroll}>
+                    <animated.div id='scroll' style={scroll}>
                         Scroll
-                    </animated.span>
+                    </animated.div>
                 </div>
                 <HomePage />
                 <ProjectsPage />

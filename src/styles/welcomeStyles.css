@@ -13,73 +13,77 @@ h1 {
     font-weight: bold;
     margin: -5.5rem auto 0 -1.8rem;
     font-family: tahoma;
-    color: rgb(47, 45, 63);
+    /* color: rgb(47, 45, 63); */
+    color: rgb(255, 187, 0);
+}
+
+.name:first-child {
+    margin-bottom: -7rem;
 }
 
 #nameExtFirst {
-    font-family: tahoma;
-    font-weight: bold;
-    margin-top: 0;
+    margin-top: 1.4rem;
     margin-bottom: 0;
     letter-spacing: 0.8rem;
     color: rgb(47, 45, 63);
 }
 
 #nameExtLast {
-    font-family: tahoma;
-    font-weight: bold;
-    margin-top: 9rem;
+    margin-top: 7.5rem;
     margin-bottom: 0;
     letter-spacing: 0.8rem;
     color: rgb(47, 45, 63);
 }
 
 #nameAnimations {
+    font-family: tahoma;
+    font-weight: bold;
     position: relative;
     top: -30.7rem;
     font-size: 8rem;
 }
 
-/* #titleAnimations {
-    position: relative;
-    display: inline;
-    top: -30rem;
-    left: 11rem;
-    font-size: 4vw;
-    font-family: tahoma;
+@font-face {
+    font-family: title-font;
+    src: url(Shockwave.ttf);
+}
+
+#titleOne,
+#titleTwo {
+    font-size: 5vw;
+    font-family: title-font;
     color: linen;
-} */
+    opacity: 75%;
+    font-weight: bold;
+}
 
 #titleOne {
     position: relative;
     top: -29rem;
-    margin: 0 0.5rem 0 30vw;
-    font-size: 4vw;
-    font-family: tahoma;
+    margin: 0 0.5rem 0 25vw;
     letter-spacing: 0.5rem;
-    color: linen;
-    opacity: 75%;
 }
 
 #titleTwo {
     position: relative;
     bottom: 29rem;
     margin: 0 0 0 0.5rem;
-    font-size: 4vw;
-    font-family: tahoma;
     letter-spacing: 0.5rem;
-    color: linen;
-    opacity: 75%;
 }
 
 #scroll {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
-    top: -23rem;
-    right: 22rem;
-    font-size: 2rem;
+    top: -27em;
+    font-size: 1rem;
     font-family: tahoma;
     font-weight: bold;
-    color: rgb(47, 45, 63);
+    color: snow;
+    background-color: rgb(47, 45, 63);
+    height: 2rem;
+    width: 100vw;
 }
 
 @media (max-width: 765px) {
