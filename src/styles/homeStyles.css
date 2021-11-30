@@ -2,10 +2,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: relative;
-    height: 65vh;
-    margin: 0;
-    background-color: transparent !important;
+    margin-top: -15rem;
+    background-color: transparent;
     border-radius: 5em;
 }
 
@@ -27,12 +25,6 @@ img {
 
 #introLine {
     font-size: 1.5em;
-}
-
-#backToTopBtn {
-    position: absolute;
-    top: -25%;
-    left: 50%;
 }
 
 @media (max-width: 765px) {

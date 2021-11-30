@@ -1,19 +1,24 @@
 import React from 'react';
-// import HomePage from './components/HomePage.js';
-// import ProjectsPage from './components/ProjectsPage.js';
-// import ContactPage from './components/ContactPage.js';
-// import Resume from './components/Resume.js';
+import { Parallax } from 'react-parallax';
 import Welcome from './components/Welcome.js';
+// import Resume from './components/Resume.js';
 
 function App() {
     return (
-        <div className='App'>
-            <Welcome />
-            {/* <HomePage /> */}
-            {/* <ProjectsPage /> */}
-            {/* <ContactPage /> */}
-            {/* <Resume /> */}
-        </div>
+        <Parallax
+            bgImage='parallax5.jpg'
+            strength={1000}
+            bgImageStyle={{ height: '70%', width: '100vw' }}
+            // blur={3}
+        >
+            <div className='App'>
+                <Welcome />
+                {/* <HomePage />
+                <ProjectsPage />
+                <ContactPage /> */}
+                {/* <Resume /> */}
+            </div>
+        </Parallax>
     );
 }
 

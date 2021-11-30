@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
-import { Parallax } from 'react-parallax';
 import '../styles/welcomeStyles.css';
+import { useSpring, animated } from 'react-spring';
 import HomePage from './HomePage.js';
 import ProjectsPage from './ProjectsPage.js';
-import { useSpring, animated } from 'react-spring';
+import ContactPage from './ContactPage.js';
 
 const Welcome = () => {
     const scrollPosition = window.scrollY;
+
     const [flip, set] = useState(false);
+
     const firstProps = useSpring({
         to: { marginLeft: '7rem' },
         from: { marginLeft: '-500rem' },
@@ -39,33 +41,34 @@ const Welcome = () => {
         onRest: () => set(!flip),
     });
 
+    console.log(window.scrollY);
+
     return (
         <>
-            <Parallax bgImage='parallax5.jpg' strength='800'>
-                <div id='welcomeContainer'>
-                    <p className='name'>P</p>
-                    <p className='name'>M</p>
-                    <div id='nameAnimations'>
-                        <animated.p style={firstProps} id='nameExtFirst'>
-                            atrick
-                        </animated.p>
-                        <animated.p style={lastProps} id='nameExtLast'>
-                            cGuigan
-                        </animated.p>
-                    </div>
-                    <animated.span id='titleOne' style={titleOneProps}>
-                        Software
-                    </animated.span>
-                    <animated.span id='titleTwo' style={titleTwoProps}>
-                        Engineer
-                    </animated.span>
-                    <animated.div id='scroll' style={scroll}>
-                        Scroll
-                    </animated.div>
+            <div id='welcomeContainer'>
+                <p className='name'>P</p>
+                <p className='name'>M</p>
+                <div id='nameAnimations'>
+                    <animated.p style={firstProps} id='nameExtFirst'>
+                        atrick
+                    </animated.p>
+                    <animated.p style={lastProps} id='nameExtLast'>
+                        cGuigan
+                    </animated.p>
                 </div>
-                {scrollPosition > 5 && <HomePage />}
-                {scrollPosition > 200 && <ProjectsPage />}
-            </Parallax>
+                <animated.span id='titleOne' style={titleOneProps}>
+                    Software
+                </animated.span>
+                <animated.span id='titleTwo' style={titleTwoProps}>
+                    Engineer
+                </animated.span>
+                <animated.div id='scroll' style={scroll}>
+                    Scroll
+                </animated.div>
+            </div>
+            {scrollPosition > 50 && <HomePage />}
+            <ProjectsPage />
+            <ContactPage />
         </>
     );
 };
